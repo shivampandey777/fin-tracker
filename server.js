@@ -1,10 +1,11 @@
+// server.js
 const express = require("express");
 const serverless = require("serverless-http");
 const morgan = require("morgan");
 const expenseRoutes = require("./routes/expenseRoutes");
 const app = express();
 
-// Load environment variables
+// Load environment variables (if using .env locally)
 require("dotenv").config();
 
 // Middleware
