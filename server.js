@@ -1,4 +1,3 @@
-// server.js
 const express = require("express");
 const serverless = require("serverless-http");
 const morgan = require("morgan");
